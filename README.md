@@ -13,6 +13,15 @@ This project focuses on customer segmentation using clustering algorithms. The g
 - **Libraries**: NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn
 - **Algorithms**: K-Means Clustering.
 
+## Data Preprocessing Steps  
+
+### 1. Import Libraries & Load Dataset  
+- Used `pandas`, `numpy`, `seaborn`, `matplotlib`, and `sklearn.preprocessing` for data processing.  
+- Loaded the dataset and explored its structure using `info()`, `head()`, and `describe()` functions.  
+
+### 2. Handling Missing Values  
+- Checked for missing values in the dataset.
+
 ## Dataset
 The dataset consists of customer demographic information, purchasing patterns, and transaction history. It was sourced from [Kaggle](https://www.kaggle.com/datasets/zubairmustafa/shopping-mall-customer-segmentation-data) and contains the following fields:
 - **CustomerID**: Unique customer identifier.
