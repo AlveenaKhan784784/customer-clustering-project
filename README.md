@@ -22,6 +22,12 @@ This project focuses on customer segmentation using clustering algorithms. The g
 ### 2. Handling Missing Values  
 - Checked for missing values in the dataset.
 
+### Visualizations
+- Uses histogram for visualization
+
+### Encode categorical columns
+- Mapping in gender column
+
 ## Dataset
 The dataset consists of customer demographic information, purchasing patterns, and transaction history. It was sourced from [Kaggle](https://www.kaggle.com/datasets/zubairmustafa/shopping-mall-customer-segmentation-data) and contains the following fields:
 - **CustomerID**: Unique customer identifier.
